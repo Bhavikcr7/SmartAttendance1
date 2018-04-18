@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.app.smartattendance.regPage">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/regPage_reg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:text="Registration"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/regPage_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/regPage_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:ems="10"
+            android:hint="Enter email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/regPage_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:ems="10"
+            android:hint="Enter Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/regPage_division1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:ems="10"
+            android:hint="Enter division 1"
+            android:inputType="textPersonName"
+            android:text="NA" />
+
+        <EditText
+            android:id="@+id/regPage_division2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter division 2"
+            android:inputType="textPersonName"
+            android:text="NA" />
+
+        <EditText
+            android:id="@+id/regPage_division3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter division 3"
+            android:inputType="textPersonName"
+            android:text="NA" />
+
+        <Button
+            android:id="@+id/regPage_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
